@@ -30,3 +30,22 @@ nav {
 .card-content {
   flex-grow: 1;
 }
+
+.basket {
+  position: fixed; 
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  z-index: 5;
+  padding: 1rem;
+}
+@media(min-width: 767px) {
+  .basket {
+    top: 6rem;
+    bottom: unset;
+  }
+}
+
+.basket-quantity {
+  
+}
