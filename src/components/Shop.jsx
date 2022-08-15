@@ -13,7 +13,7 @@ function Shop() {
 
   const addToBasket = (item) => {
     const itemIdex = order.findIndex(
-      (orderItem) => orderItem.mainId === item.mainId
+      (orderItem) => orderItem.id === item.mainId
     );
 
     if (itemIdex < 0) {
