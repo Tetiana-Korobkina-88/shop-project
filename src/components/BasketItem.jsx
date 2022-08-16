@@ -25,8 +25,11 @@ function BasketItem(props) {
         add
       </i>
       {price.regularPrice * quantity} UAH
-      <span class="secondary-content" onClick={() => removeFromBasket(mainId)}>
-        <i class="material-icons basket-delete">close</i>
+      <span
+        className="secondary-content"
+        onClick={() => removeFromBasket(mainId)}
+      >
+        <i className="material-icons basket-delete">close</i>
       </span>
     </li>
   );
