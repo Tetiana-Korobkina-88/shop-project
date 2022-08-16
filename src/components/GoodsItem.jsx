@@ -4,14 +4,14 @@ function GoodsItem(props) {
     displayName,
     displayDescription,
     price,
-    displayAssets,
+    // displayAssets,
     addToBasket = Function.prototype,
   } = props;
 
   return (
     <div className="card">
       <div className="card-image">
-        <img src={displayAssets[0].full_background} alt={displayName} />
+        {/* <img src={displayAssets[0].full_background} alt={displayName} /> */}
       </div>
       <div className="card-content">
         <span className="card-title">{displayName}</span>
